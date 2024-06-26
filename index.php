@@ -1,6 +1,11 @@
 <?php
 session_start();
 
+// 检查并初始化用户会话
+if (!isset($_SESSION['user_id'])) {
+    $_SESSION['user_id'] = uniqid('user_', true);
+}
+
 // 读取 CSV 文件并将其转换为一个关联数组
 function loadWords($filename) {
     $words = [];
@@ -23,20 +28,19 @@ $words = loadWords('words.csv');
 // 处理表单提交
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $answer = trim($_POST['answer']);
-    $correct_answer = $_SESSION['current_word']['word'];
-    $correct_zhongwen = $_SESSION['current_word']['meaning'];
+    $correct_answer = $_SESSION[$_SESSION['user_id']]['current_word']['word'];
     if ($answer === $correct_answer) {
-        $message = "正确！“" . $correct_zhongwen . "” 的正确答案是: " . $correct_answer;
+        $message = "正确！";
     } else {
-        $message = "错误，“" . $correct_zhongwen . "” 的正确答案是: " . $correct_answer;
+        $message = "错误，正确答案是: " . $correct_answer;
     }
-    unset($_SESSION['current_word']);
+    unset($_SESSION[$_SESSION['user_id']]['current_word']);
 } else {
     $message = "";
 }
 
-if (!isset($_SESSION['current_word'])) {
-    $_SESSION['current_word'] = getRandomWord($words);
+if (!isset($_SESSION[$_SESSION['user_id']]['current_word'])) {
+    $_SESSION[$_SESSION['user_id']]['current_word'] = getRandomWord($words);
 }
 ?>
 
@@ -120,7 +124,7 @@ if (!isset($_SESSION['current_word'])) {
 <body>
     <div class="container">
         <h1>背单词</h1>
-        <p><?php echo $_SESSION['current_word']['meaning']; ?></p>
+        <p><?php echo $_SESSION[$_SESSION['user_id']]['current_word']['meaning']; ?></p>
         <form method="post">
             <input type="text" name="answer" placeholder="输入英文单词" required>
             <button type="submit">提交</button>
@@ -129,6 +133,12 @@ if (!isset($_SESSION['current_word'])) {
         <p class="message"><?php echo $message; ?></p>
     </div>
     <footer>
+        <a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备2023000758号-3</a> |
+        <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31012102000146">
+            <img src="https://beian.mps.gov.cn/img/ghs.png" alt="沪公网安备">
+            沪公网安备31012102000146号
+        </a>
+        <br/>
         <span>适用于华东理工大学能源与动力工程专业英语</span><br/>
         <span id="ipv4"></span><span id="ipv6"></span>
     </footer>
@@ -136,8 +146,8 @@ if (!isset($_SESSION['current_word'])) {
     <script src="https://net.sjtu.edu.cn/script/nav.js"></script>
     <script>
         function playAudio() {
-            var word = "<?php echo $_SESSION['current_word']['word']; ?>";
-            var audio = new Audio('http://dict.youdao.com/dictvoice?type=1&audio=' + encodeURIComponent(word));
+            var word = "<?php echo $_SESSION[$_SESSION['user_id']]['current_word']['word']; ?>";
+            var audio = new Audio('https://dict.youdao.com/dictvoice?type=1&audio=' + encodeURIComponent(word));
             audio.play();
         }
     </script>
