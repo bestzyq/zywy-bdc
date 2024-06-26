@@ -1,0 +1,464 @@
+thermodynamics,热力学
+heat engine,热机
+heat pump,热泵
+entropy,熵
+enthalpy,焓
+condensor,冷凝器
+evaporator,蒸发器
+control volume,控制体积
+refrigerant,制冷剂
+saturated,饱和的
+HVAC(Heating Ventilating Air Conditioning),供暖通风空调
+Fourier’s Law,傅里叶定律
+thermophysical,热物性的
+kinematic viscosity,动力黏度
+spectral,光谱的
+heat-transfer coefficient,传热系数
+refraction,折射
+absorptivity,吸收率
+Cartesian coordinates,笛卡尔坐标系
+thermal conductivity,导热系数
+shear forces,剪切力
+nondimensional,无量纲的
+frictional forces,摩擦力
+inviscid,无黏性
+laminar flow,层流
+eddy,涡旋
+viscosity,黏度
+inertia forces,惯性力
+pressure losses,压力损失
+hydraulic diameter,水力直径
+phlogiston,可燃质、可燃素
+carbon monoxide,一氧化碳
+methane,甲烷
+Bunsen Burner,本生燃烧器
+calorimeter,量热器
+academician,院士、会员
+specific heat,比热
+flame propagation,火焰传播
+laminar flame,层流火焰
+activation energy,活化能
+universal gas constant,通用气体常数
+free radical,自由基团
+preclude,预防、排除、妨碍
+residual oil,残渣油
+coke-oven gas,焦炉气
+lignin,木质素
+lignite,褐煤
+peat,泥煤
+fixed carbon,固定碳
+vegetation,植物、植被生长
+coalification,煤化（过程）
+anthracite,无烟煤
+bituminous,烟煤
+subbituminous,次烟煤
+flash point,闪点
+chromatography,色谱法、色谱
+strata,（地、岩、阶）层
+hermetically,密封着地、气密
+carrier air,输送（携带）空气
+pulverized fuel,煤粉
+fixed grate,固定炉排
+bubbling type of fluidized bed,鼓泡式流化床
+stoker firing,火床燃烧、层状燃烧
+vortex,涡流
+soot-blowing,吹灰
+cyclone,旋风分离器
+limestone,石灰石
+circulating fluidized bed,循环流化床
+scrubbing system,洗涤系统
+aperture,孔、洞、嘴
+biasing of airflow,偏置流动、流量偏置
+entrained-flow,携带流
+calcine,焙烧、煅烧
+inventory,清单、报表、机器设备
+sulfur dioxide,二氧化硫
+photochemical,光化学的
+smog,烟雾
+collectively referred to as,统称为
+bench-scale,实验室（规模）的
+prompt NO,快速NO
+thermal NO,热力NO
+fuel NOx,燃料NOx
+turbulence,湍流
+fuel-rich,燃料富有的
+fuel-lean,燃料贫乏的
+fuel-bound oxygen,燃料（结合的）氧
+fuel-bound nitrogen,燃料（结合的）氮
+devolatilization,析出、释放出
+Carnot cycle,卡诺循环
+Rankine cycle,朗肯循环
+power plant,电站
+boiler,锅炉
+steam generator,锅炉，蒸汽发生器
+burner,燃烧器
+flue gas,烟气
+electrostatic precipitator,静电除尘器
+bag filterhouse,布袋式除尘器
+sulfur dioxide scrubbing system,脱硫系统
+steam turbine,汽轮机
+electric generator,发电机
+fossil-fuel,化石燃料
+pulverized-coal,煤粉
+forced-draft fan,送风机
+cycle efficiency,循环效率
+primary air fan,一次风机
+pulverizer,磨煤机
+stack,烟囱
+induced-draft fan,引风机
+furnace,炉膛
+sootblower,吹灰器
+air heater,空气预热器
+reheat cycle,再热循环
+feedwater heater,给水加热器
+deaerating heater,除氧器
+hydropower,水力
+hydroelectric powerplant,水电站
+dam,水坝
+reservoir,水库
+exciter,励磁机
+governor system,调节系统
+protective device,保护装置
+transformer,变压器
+spillway,泄洪道
+penstock,水渠
+powerhouse,电站厂房
+surge tank,调压室
+switchyard,高压开关站
+hydraulic turbine,水轮机
+draft tube,尾水管
+generator,发电机
+crane,起重机
+gantry crane,龙门起重机
+insulator,绝缘子
+switching equipment,开关设备
+transmission line,输电线
+angular momentum,角动量
+torque,力矩
+nuclear power plant,核电站
+nuclear fuel,核燃料
+uranium,铀
+fission,裂变
+reactor,反应堆
+core,堆芯
+pressure vessel,压力容器
+shielding,屏蔽
+nuclear reaction,核反应
+fuel rod,燃料棒
+isotope,同位素
+neutron,中子
+plutonium,钚
+moderator,慢化剂
+graphite,石墨
+heavy water,重水
+lightwater,轻水
+control rod,控制棒
+coolant,冷却剂
+pressurized water reactor,压水反应堆
+primary system,一次系统
+secondary system,二次系统
+enriched uranium,浓缩铀
+boiling water reactor,沸水反应堆
+fast breeder reactor,快中子增殖反应堆
+molten sodium,融钠
+helium,氦
+gas-cooled reactor,气冷反应堆
+pressurized heavy water reactor,压力重水反应堆
+combined cycle,联合循环
+Brayton cycle,布兰登循环
+Isentropically,等熵
+mechanical work,机械功
+heat-recovery steam generator,余热锅炉
+thermal efficiency,热效率
+dual-cycle system,双循环系统
+gas turbine,燃气轮机
+selective catalytic reduction,选择性催化还原
+integrated gasification combined cycle,整体煤气化联合循环
+combustion efficiency,燃烧效率
+industrial boiler,工业锅炉
+utility boiler,电站锅炉
+availability,可用率
+reliability,可靠性
+superheater,过热器
+economizer,省煤器
+reheater,再热器
+capacity,容量
+downcomer,下降管
+riser,上升管
+steam drum,汽包
+natural circulation,自然循环
+controlled circulation,控制循环
+once-through boiler,直流锅炉
+supercritical boiler,超临界压力锅炉
+subcritical boiler,亚临界压力锅炉
+boiler efficiency,锅炉效率
+heat balance,热平衡
+heat loss,热损失
+excess air,过量空气
+membrane wall,膜式壁
+waterwall,水冷壁
+casing,炉墙
+insulation,保温
+refractory,耐火材料
+slag,结渣
+erosion,腐蚀、侵蚀
+studded tube,销钉管
+dry-bottom furnace,固态排渣
+wet-bottom furnace,液态排渣
+fiy ash,飞灰
+heating surface,受热面
+convection bypass,对流烟道
+superheat,过热
+overheating,超温
+convection superheater,对流过热器
+radiant superheater,辐射过热器
+seamless tube,无缝钢管
+handhole cap,手孔盖
+desuperheater(attemperator),减温器
+spray-type attemperator,喷水减温器
+pressure drop,压降
+parallel flow,顺流
+counter flow,逆流
+flue gas bypass,烟气旁通
+flue gas recirculation,烟气再循环
+tilting burner,摆动式燃烧器
+air preheater,空气预热器
+exit flue gas temperature,排烟温度
+tubular air preheater,管式空预热器
+regenerative air preheater,回转式空预热器
+header,联箱
+tube sheet,管板
+thermocouple,热电偶
+acid dew point,酸露点
+water dew point,水露点
+steam coil air heater,蒸汽盘管式空气预热器
+thermal energy,热能
+nozzle,喷嘴
+blade,动叶
+kinetic energy,动能
+rotor,转子
+shaft,轴
+impulse,冲动式
+reaction,反动式
+stage,级
+2-row stage,双列级
+Multistage,多级
+throttling loss,节流损失
+stage efficiency,级效率
+internal efficiency,内效率
+isentropic,等熵
+available energy,可用能
+reheat factor,再热系数
+stop valve,截止阀
+control valve,控制阀
+exhaust hood,排气罩
+piping,管道
+valve-stem,阀杆
+shaft-end packing,轴端汽封
+bearing,轴承
+oil-pump,油泵
+internal combustion engine,内燃机
+piston,活塞
+reciprocating engine,往复式发动机
+supercharger,增压器
+aircraft,航天器
+propulsion,推进、推进力
+locomotive,火车头、机头
+air compressor,空气压缩机
+combustion chamber,燃烧室
+turbine wheel,涡轮
+propeller,"推进器,推进者,推进物"
+turbo-prop engine,涡轮螺旋桨发动机
+gear-box,变速箱
+jet engine,喷气发动机
+aero-engine,飞机引擎、航空发动机
+altitude,高度
+afterburner,喷射引擎等的加力燃烧室
+turbofan engine,涡扇发动机
+diesel engine,柴油机
+runner,转轮
+tail water,尾水
+cavitation,气穴现象
+vertical shaft,立轴
+horizontal shaft,卧轴
+reaction turbine,反动式透平
+impulse turbine,冲动式透平
+pitch angle,桨距角
+runaway speed,失控速度
+synchronous speed,同步速度
+bucket,水斗
+needle valve,针形阀
+spiral case,蜗壳
+circular set,座环
+tubular turbine,贯流式
+lift type,升力型
+drag type,曳力型
+airfoil,机翼、螺旋桨
+orientation,方向
+horizontal axis wind turbine,卧式风力机
+vertical axis wind turbine,立式风力机
+upwind,上风
+downwind,下风
+direction sensor,风向感受器
+yaw,偏航
+fatigue life,疲劳寿命
+moment of inertia,转动惯量
+hub,轮毂
+aerodynamic,空气动力学的
+pitchable blade,变桨距叶片
+ordinate,纵坐标
+abscissa,横坐标
+vertical-spindle ball mill,立式球磨机
+horizontal-tube mill,卧式筒式磨煤机
+exhauster,排粉机
+the central system,中仓式系统
+the unit system,直吹式系统
+coal feeder,给煤机
+coal bunker,原煤斗
+pulverized-coal fineness,煤粉细度
+balanced draft,平衡通风
+induced draft,引风通风
+pressurized furnace,正压炉膛
+centrifugal fan,离心式风机
+radial blade,径向叶片
+forward-curved blade,前弯叶片
+backward-curved blade,后弯叶片
+damper,挡板
+inlet vane,入口叶片
+variable-speed drive,变速驱动
+axial fan,轴流风机
+pneumatic signal,气动信号
+flexible coupling,弹性联轴节
+misalignment,未对准
+noise pollution,噪声污染
+silencer,消音器
+discharge electrode,放电电极
+collecting plate,集尘板
+high-voltage DC current,高压直流电
+ionize,电离
+rapping system,振打系统
+resistivity,电阻系数
+electrostatic field,电场
+mechanical collector,机械式除尘器
+corona,电晕
+electron flow,电流
+ash-removal system,出灰系统
+wet electrostatic precipitator,湿式电除尘器
+flue gas desulfurization,烟气脱硫
+lime,石灰
+gypsum,石膏
+mist eliminator,除雾器
+absorption chamber,吸收室
+corrosive,腐蚀
+abrasive,磨损
+chloride,氯化物
+water box,水室
+direct contact condenser,混合式凝汽器
+condensate,凝结水
+surface condenser,表面式凝汽器
+air-cooled steam condenser,空冷式凝汽器
+vaccum,真空
+cooling tower,冷却塔
+leakage,泄露
+noncondensable gas,非凝结性气体
+condensate pump,凝结水泵
+hot well,热井
+boil feed pump,锅炉给水泵
+ejector system,抽汽系统
+expansion joint,膨胀节
+booster pump,升压泵、增压泵
+Steam-turbine-driven pump,汽动泵
+motor-driven pump,电动泵
+hydraulic coupling,液力耦合器
+circulating water pump,循环水泵
+feed pump,给水泵
+feed-regulating valve,给水调节阀
+pressure/flow characteristic,压力/流量特性
+system resistance,系统阻力
+fixed-speed pump,定速泵
+variable-speed pump,变速泵
+discharge pressure,出口压力
+startup,开启
+in service,运行、服役
+hydrostatic test,水压试验
+safety valve,安全阀
+boilout,煮炉
+chemical cleaning,化学清洗
+blowdown,排污
+interlock,联锁
+purging,吹扫
+water level,水位
+setpoint pressure,开启压力
+closing pressure,关闭压力
+the main steam line,主蒸汽管道
+common steam line,蒸汽母管
+normal operation,正常运行
+automatic control,自动控制
+flue gas analysis,烟气分析
+draft gauge,风压计
+in proportion,按比例
+manual removal of the ash,手工除灰
+regulator,调节器
+monitor,监视器
+alarm,报警
+gauge glass,水位计
+fuel-air ratio,空燃比
+hand control,手工控制
+melting temperature,融化温度
+furnace exit,炉膛出口
+three-element,三冲量
+observation,观察
+inspection,检查
+symptom,症状
+out of service,停用、退役
+output,出力
+shut off,切断
+shut down,停止
+nonreturn valve,止回阀
+forced cooling,强制冷却
+normal cooling,正常冷却
+absorbent,吸附剂
+ion-exchange equipment,离子交换器
+oxygen scavenger,除氧剂
+operating instruction,运行指令
+emergency governor,紧急调节器
+general procedure,一般步骤
+synchronize,同步
+operating characteristic,运行特性
+control panel,控制面板
+auxiliary oil pump,辅助油泵
+instrument,仪器，器具
+main oil pump,主油泵
+cooling water,冷却水
+overspeed,超速
+normal speed,正常速度
+oil-pressure gauge,油压计
+temperature indicator,温度指示器
+vibration monitor,振动监视器
+regular inspection,定期检查
+recuperator,同流换热器
+fluidized-bed,流化床
+noncondensable,非冷凝的
+feedwater,给水
+desuperheater,过热蒸汽减温器
+immiscible,不相混的
+shell-and-tube,壳管
+methodology,方法论
+optimum,优化
+multidisciplinary,多学科
+thermophysical property,热物理性质
+fouling,污垢
+cleanability,除尘度，可清洁性
+plate-fin,板翼式
+cryogenics,低温
+noncorrosive,没有腐蚀性的
+compact heat exchanger,板翘式热交换器
+fin,散热翅片
+sludge,污泥
+wastewater treatment,废水处理
+preheating,预热
+maldistribution,分布不均
+liquid-ring vacuum pump,液环真空泵
+mesophilic digestion,中温（消化）
+sludge digester,污泥消化池
+dehumidification,去湿
