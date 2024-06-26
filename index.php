@@ -29,10 +29,11 @@ $words = loadWords('words.csv');
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $answer = trim($_POST['answer']);
     $correct_answer = $_SESSION[$_SESSION['user_id']]['current_word']['word'];
+    $correct_meaning = $_SESSION[$_SESSION['user_id']]['current_word']['meaning'];
     if ($answer === $correct_answer) {
         $message = "正确！";
     } else {
-        $message = "错误，正确答案是: " . $correct_answer;
+        $message = "错误，“" . $correct_meaning . "”的正确答案是: " . $correct_answer;
     }
     unset($_SESSION[$_SESSION['user_id']]['current_word']);
 } else {
@@ -133,7 +134,7 @@ if (!isset($_SESSION[$_SESSION['user_id']]['current_word'])) {
         <p class="message"><?php echo $message; ?></p>
     </div>
     <footer>
-        <a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备2023000758号-3</a> |
+        <a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备2023000758号-3</a><br/>
         <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31012102000146">
             <img src="https://beian.mps.gov.cn/img/ghs.png" alt="沪公网安备">
             沪公网安备31012102000146号
