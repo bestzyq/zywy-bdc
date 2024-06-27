@@ -131,6 +131,7 @@ if (!isset($_SESSION[$_SESSION['user_id']]['current_word'])) {
             <button type="submit" onclick="setFocus()">提交</button>
         </form>
         <button class="audio-button" onclick="playAudio()">听发音</button>
+        <a href="/list.php"><button>看词表</button></a>
         <p class="message"><?php echo $message; ?></p>
     </div>
     <footer>
