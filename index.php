@@ -126,9 +126,9 @@ if (!isset($_SESSION[$_SESSION['user_id']]['current_word'])) {
     <div class="container">
         <h1>背单词</h1>
         <p><?php echo $_SESSION[$_SESSION['user_id']]['current_word']['meaning']; ?></p>
-        <form method="post">
-            <input type="text" name="answer" placeholder="输入英文单词" required>
-            <button type="submit">提交</button>
+        <form method="post" id="wordForm">
+            <input type="text" name="answer" id="answer" placeholder="输入英文单词" required>
+            <button type="submit" onclick="setFocus()">提交</button>
         </form>
         <button class="audio-button" onclick="playAudio()">听发音</button>
         <p class="message"><?php echo $message; ?></p>
@@ -151,6 +151,17 @@ if (!isset($_SESSION[$_SESSION['user_id']]['current_word'])) {
             var audio = new Audio('https://dict.youdao.com/dictvoice?type=1&audio=' + encodeURIComponent(word));
             audio.play();
         }
+
+        function setFocus() {
+            setTimeout(function() {
+                document.getElementById('answer').focus();
+            }, 100);
+        }
+
+        // 在页面加载时自动聚焦输入框
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('answer').focus();
+        });
     </script>
 </body>
 </html>
