@@ -130,7 +130,7 @@ $end_page = min($total_pages, $current_page + $pagination_range);
             <tbody>
                 <?php for ($i = $start_index; $i < $end_index; $i++): ?>
                     <tr>
-                        <td><a href="https://www.iciba.com/word?w=<?php echo htmlspecialchars($words[$i]['word'], ENT_QUOTES, 'UTF-8'); ?>"><?php echo htmlspecialchars($words[$i]['word'], ENT_QUOTES, 'UTF-8'); ?></a></td>
+                        <td><a href="https://www.iciba.com/word?w=<?php echo htmlspecialchars($words[$i]['word'], ENT_QUOTES, 'UTF-8'); ?>" target="_blank"><?php echo htmlspecialchars($words[$i]['word'], ENT_QUOTES, 'UTF-8'); ?></a></td>
                         <td><?php echo htmlspecialchars($words[$i]['meaning'], ENT_QUOTES, 'UTF-8'); ?></td>
                         <td><button onclick="playAudio('<?php echo htmlspecialchars($words[$i]['word'], ENT_QUOTES, 'UTF-8'); ?>')">播放</button></td>
                     </tr>
